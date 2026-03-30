@@ -1,8 +1,6 @@
 # Mecanum_Robot_Ibus
 Code for 4 wheel mecanum robot using arduino with ibus communication with FS i6 transmitter receiver
 
-## ═══════════════════════════════════════════════════════════
-
 # Trigonometric polar mixing:
 The right stick (throttle + strafe) is treated as a 2-D vector. Its magnitude and angle are computed, then each wheel's contribution is derived by projecting that vector onto the wheel's effective drive axis (±45°).
 
@@ -16,5 +14,4 @@ Rotation (left stick H) is added linearly on top of the translation result, then
               ╲     ╱
               ╱     ╲
           RL ╱       ╲ RR
-
-## ═══════════════════════════════════════════════════════════
+          
